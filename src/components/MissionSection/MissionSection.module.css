@@ -7,16 +7,24 @@
   align-items: center;
   gap: 80px;
   display: inline-flex;
+  border-left: 1px #d6d7d9 solid;
+  border-right: 1px #d6d7d9 solid;
+  border-bottom: 1px #d6d7d9 solid;
+  
+
 }
 
 .textContainer {
+  width:50%;
+  margin-top:80px;
   flex: 1 1 0;
-  padding-right: 24px;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 24px;
+  gap: 15px;
   display: inline-flex;
+  margin-bottom:80px
+  
 }
 
 .missionBadge {
@@ -41,57 +49,64 @@
 }
 
 .title {
-  align-self: stretch;
+  text-align:start;
   color: black;
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   line-height: 48px;
-  word-wrap: break-word;
+  display:inline
+  
+
 }
 
 .description {
-  align-self: stretch;
+  text-align:start;
   color: #2E323A;
-  font-size: 16px;
+  font-size: 13px;
   font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  line-height: 22.4px;
+  font-weight: 500;
+  line-height: 20px;
   word-wrap: break-word;
 }
 
 .card {
-  align-self: stretch;
-  padding-bottom: 1px;
-  padding-left: 12px;
+  text-align:start;
+  padding-left: 8px;
   border-bottom: 1px #B8BBBF solid;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
   display: flex;
-}
+  position:relative;
+  padding-bottom:24px;
+  width:100%;
 
+
+}
+.card:hover{
+  border-left:3px #0ACF83 solid;
+  background-color:rgba(169, 219, 200,0.3);
+  border-bottom: 0 #B8BBBF solid;
+}
 .cardHeader {
   height: 56px;
-  padding: 24px 0 8px;
   color: #2E323A;
   font-size: 20px;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   line-height: 24px;
   word-wrap: break-word;
+  padding-top:24px;
 }
 
 .cardContent {
-  align-self: stretch;
-  height: 46px;
-  padding-bottom: 24px;
+  text-align:start;
   color: #2E323A;
-  font-size: 16px;
+  font-size: 12px;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   line-height: 22.4px;
   word-wrap: break-word;
+
 }
 
 .buttonContainer {
@@ -102,18 +117,18 @@
 }
 
 .exploreButton {
+  margin-top:25px;
   border-radius: 8px;
   border: 1px #0ACF83 solid;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 16px;
   display: flex;
+  cursor:pointer;
 }
 
 .exploreText {
-  padding: 16px 32px;
-  border-radius: 8px;
-  overflow: hidden;
+  padding:8px 10px;
   color: #0ACF83;
   font-size: 20px;
   font-family: 'Inter', sans-serif;
@@ -121,31 +136,38 @@
   line-height: 24px;
   text-align: center;
 }
-
-.enquireButton {
+.exploreText:hover{
+  background-color:#0ACF83;
+  color:white;
   border-radius: 8px;
+}
+.enquireButton {
+ 
   justify-content: flex-start;
   align-items: flex-start;
   gap: 16px;
-  display: flex;
+  margin-top:22px;
+  display: inline;
+
 }
 
 .enquireText {
   padding: 16px 32px;
-  border-radius: 8px;
   overflow: hidden;
   color: #1A1C21;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Inter', sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 24px;
   text-align: center;
+
 }
 
 .arrowContainer {
   width: 24px;
   height: 24px;
   position: relative;
+
 }
 
 .arrow {
@@ -168,12 +190,14 @@
 }
 
 .imageContainer {
+  margin-top:30px;
   width: 694px;
   height: 558px;
   position: relative;
 }
 
 .imageWrapper {
+  
   width: 694px;
   height: 525px;
   border-radius: 12px;
@@ -202,6 +226,7 @@
   position: absolute;
   left: 207px;
   top: 491px;
+  box-shadow: 0px -2px 4px black;
 }
 
 .liveWorkshopsBadge {
@@ -227,7 +252,7 @@
   position: absolute;
   background: linear-gradient(180deg, #FF4343 0%, #FF511A 100%);
   border-radius: 2000px;
-  left: 4px;
+  left: 14px;
   top: 4px;
 }
 
