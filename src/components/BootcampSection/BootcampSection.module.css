@@ -1,14 +1,15 @@
 .container {
     width: 100%;
     height: 100%;
-    padding: 112px 64px 112px 64px;
+    padding: 70px 64px 112px 64px;
     display: inline-flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    display:absolute;
-    top:-100%;
-    gap: 80px;
+    position:absolute;
+    top:0%;
+    left:0;
+    gap: 65px;
 }
 .backgroundVideo {
     position: absolute;
@@ -23,7 +24,6 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
 }
 
 .header {
@@ -128,6 +128,7 @@
     align-items:center;
     justify-content:space-between;
     gap:1.5rem;
+    text-align:start;
 }
 
 .gradientIcon {

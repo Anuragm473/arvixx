@@ -86,13 +86,17 @@
     gap: 24px;
     display: flex;
   }
-  
+  .radioButtons{
+    display:flex;
+    gap:1rem;
+  }
   .radioGroup {
     align-self: stretch;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 48px;
+    gap: 1.5rem;
     display: inline-flex;
+    flex-direction:column;
   }
   
   .radioOption {
@@ -139,6 +143,7 @@
     align-self: stretch;
     height: 180px;
     padding: 12px;
+    text-align:start;
     background: white;
     border-radius: 4px;
     justify-content: flex-start;
@@ -190,12 +195,16 @@
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     line-height: 24px;
-    text-align: center;
+    text-align: start;
   }
   
   .arrowIcon {
     width: 24px;
     height: 24px;
     position: relative;
+    display:inline-block;
+    text-align:center;
+    padding-top:5px;
+    padding-left:4px;
   }
   

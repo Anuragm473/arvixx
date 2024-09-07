@@ -8,6 +8,22 @@ export default function Hero() {
   return (
     <div className={styles.hero}>
       <div className={styles.container}>
+      <div className={styles.redBubble}>
+          <img className={styles.orangearrow} src='images/vectororange.svg'/>
+            <div className={styles.redBubbleText}>Social Media</div>
+          </div>
+          <div className={styles.redBubble1}>
+          <img className={styles.orangearrow1} src='images/vectororange.svg'/>
+            <div className={styles.redBubbleText1}>AI</div>
+          </div>
+          <div className={styles.greenBubble}>
+            <img className={styles.greenarrow} src='images/vectorgreen.svg'/>
+            <div className={styles.greenBubbleText}>No code</div>
+          </div>
+          <div className={styles.blueBubble}>
+            <img className={styles.bluearrow} src='images/bluevector.svg'/>
+            <div className={styles.blueBubbleText}>Design</div>
+          </div>
         <div className={styles.content}>
           <div className={styles.tag}>
             <div
@@ -37,14 +53,15 @@ export default function Hero() {
                 style={{ background: "#0ACF83" }}
               >
                 <div className={styles.buttonText}> Active Camps</div>
+                <img src='images/campus.png'/>
               </div>
             </div>
             <div className={styles.button}>
               <div
                 className={styles.buttonInner}
-                style={{ background: "#1A1C21" }}
               >
-                <div className={styles.buttonText}>Explore</div>
+                <div className={styles.buttonText} style={{ color: "black",fontWeight:'700' }}>Explore</div>
+                <img src='images/enquire.png'/>
               </div>
             </div>
           </div>

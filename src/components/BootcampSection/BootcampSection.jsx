@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './BootcampSection.module.css';
 import BootCamp from '../BootCamp/BootCamp';
+import Comingsoon from '../comingsoon/Comingsoon';
 
 const BootcampSection = () => {
     return (
@@ -28,6 +29,7 @@ const BootcampSection = () => {
             <BootCamp/>
             <BootCamp/>
             </div>
+            <Comingsoon/>
             </div>
         </div>
 

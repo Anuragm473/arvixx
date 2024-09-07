@@ -18,6 +18,117 @@
   align-items: center;
   gap: 24px;
   display: inline-flex;
+  position:relative;
+}
+.orangearrow{
+  position:absolute;
+  top:13%;
+  left:14%;
+  transform:rotate(45deg)
+}
+
+
+
+.redBubbleText {
+  left: 5%;
+  top: 13%;
+  border-radius:1rem;
+  padding:12px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position: absolute;
+  color: white;
+  background:linear-gradient(180deg, #FF4343 0%, #FF511A 100%);
+  box-shadow: 0px 4px 4px rgba(31, 34, 39, 0.08);
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+.orangearrow1{
+  position:absolute;
+  top:48%;
+  left:75%;
+  transform:rotate(180deg)
+}
+
+.redBubbleText1{
+  left: 80%;
+  top: 45%;
+  border-radius:1rem;
+  padding:12px 24px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position: absolute;
+  color: white;
+  background:linear-gradient(180deg, #FF4343 0%, #FF511A 100%);
+  box-shadow: 0px 4px 4px rgba(31, 34, 39, 0.08);
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.greenBubble {
+  width: 161.70px;
+  height: 64.32px;
+  left: 439.41px;
+  top: 30%;
+  left:80%;
+  position: absolute;
+}
+
+.greenarrow{
+  position:absolute;
+  top:0%;
+  left:-10%;
+}
+.greenBubbleText {
+  left: 30px;
+  padding:12px;
+  top: 6.5px;
+  background:linear-gradient(180deg, #3AED4C 0%, #21A201 100%);
+  box-shadow: 0px 4px 4px rgba(31, 34, 39, 0.08);
+  border-radius:1rem;
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+.blueBubble {
+  width: 161.70px;
+  height: 64.32px;
+  left: 12%;
+  top: 34%;
+  position: absolute;
+}
+
+.bluearrow{
+  position:absolute;
+  top:-20%;
+  left:70%;
+}
+.blueBubbleText {
+  left: 30px;
+  padding:12px;
+  top: 6.5px;
+  background:linear-gradient(180deg, #0CA9DA 0%, #0993E0 100%);
+  box-shadow: 0px 4px 4px rgba(31, 34, 39, 0.08);
+  border-radius:1rem;
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
 }
 
 .content {

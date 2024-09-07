@@ -123,6 +123,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   gap: 16px;
+  padding:5px 16px;
   display: flex;
   cursor:pointer;
 }
@@ -143,16 +144,17 @@
 }
 .enquireButton {
  
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
   margin-top:22px;
   display: inline;
+  display:flex;
 
 }
 
 .enquireText {
-  padding: 16px 32px;
+  padding: 16px 8px 16px 32px;
   overflow: hidden;
   color: #1A1C21;
   font-size: 18px;
@@ -213,9 +215,9 @@
 }
 
 .liveWorkshops {
-  width: 279.1px;
+  width: 330px;
   height: 67px;
-  padding: 22px;
+  padding: 22px 10px 22px 22px;
   background: white;
   box-shadow: 0px 1px 37.4px rgba(180.2, 180.2, 180.2, 0.25);
   border-radius: 51px;
@@ -231,7 +233,6 @@
 
 .liveWorkshopsBadge {
   width: 20.1px;
-  height: 20.1px;
   position: relative;
 }
 
@@ -259,6 +260,7 @@
 .liveWorkshopsText {
   color: black;
   font-size: 16px;
+  text-align:center;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   line-height: 22.4px;

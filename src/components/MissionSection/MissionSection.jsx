@@ -37,7 +37,7 @@ const MissionSection = () => {
           </div>
           <div className={styles.enquireButton}>
             <div className={styles.enquireText}>Enquire</div>
-           
+           <img src='images/enquire.png'/>
           </div>
         </div>
       </div>

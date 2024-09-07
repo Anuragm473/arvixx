@@ -22,9 +22,11 @@ export default function ContactForm() {
           <div className={styles.inputBox} />
           </div>
         </div>
+        <div className={styles.inputSection}>
         <div className={styles.inputGroup}>
           <div className={styles.label}>Phone number</div>
           <div className={styles.inputBox} />
+        </div>
         </div>
         <div className={styles.radioGroup}>
           <div className={styles.label}>Related to-</div>
@@ -53,8 +55,9 @@ export default function ContactForm() {
       <div className={styles.footer}>
         <div className={styles.emailInfo}>You can also email us at arvix@gmail.com</div>
         <div className={styles.sendButton}>
-          <div className={styles.sendText}>Send Message</div>
-          <div className={styles.arrowIcon}></div>
+          <div className={styles.sendText}>Send Message
+            <div className={styles.arrowIcon}><img src='images/send-arrow.png'/></div>
+          </div>
         </div>
       </div>
     </div>

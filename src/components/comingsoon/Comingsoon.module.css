@@ -1,0 +1,60 @@
+/* ComingSoonBox.module.css */
+
+.wrapper {
+    border-radius: 8px;
+    border: 1px solid #D6D6D6;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    display: inline-flex;
+  }
+  
+  .content {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+    background: #000; /* Assuming background is black */
+  }
+  
+  .text {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+  
+  .iconWrapper {
+    width: 24px;
+    height: 24px;
+    position: relative;
+  }
+  
+  .iconMain {
+    width: 8px;
+    height: 10.7px;
+    left: 8px;
+    top: 8.3px;
+    position: absolute;
+    background: white;
+  }
+  
+  .iconSecondary {
+    width: 3.69px;
+    height: 6.29px;
+    left: 8px;
+    top: 5px;
+    position: absolute;
+    opacity: 0.5;
+    background: white;
+  }
+  

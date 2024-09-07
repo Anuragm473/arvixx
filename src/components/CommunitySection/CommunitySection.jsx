@@ -28,11 +28,11 @@ const CommunitySection = () => {
         <div className={styles.imageContainer}>
           <div className={styles.imageOverlay}></div>
           <div className={styles.greenBubble}>
-            <div className={styles.greenBubbleInner}></div>
+            <img className={styles.greenarrow} src='images/vectorgreen.svg'/>
             <div className={styles.greenBubbleText}>we talk growth</div>
           </div>
           <div className={styles.redBubble}>
-            <div className={styles.redBubbleInner}></div>
+          <img className={styles.orangearrow} src='images/vectororange.svg'/>
             <div className={styles.redBubbleText}>Community that helps</div>
           </div>
         </div>

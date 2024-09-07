@@ -16,7 +16,7 @@ const Navbar = () => {
                     <div className={styles.bootcampButton}>
                         <div className={styles.bootcampIndicator}></div>
                         <div className={styles.bootcampText}>Bootcamps</div>
-                        <div className={styles.arrow}></div>
+                        <div className={styles.arrow}><img src='images/navdown.svg'/></div>
                     </div>
                     <div className={styles.navItem}>Events</div>
                     <div className={styles.navItem}>About</div>

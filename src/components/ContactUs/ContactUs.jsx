@@ -5,6 +5,7 @@ import ContactForm from '../ContactForm/ContactForm'
 export default function ContactUs() {
   return (
     <div className={styles.container}>
+      <img className={styles.contact1} src='images/contact1.png'/>
       <div className={styles.leftSection}>
         <div className={styles.letsConnect}>
           <div className={styles.connectText}>LET’S CONNECT</div>
@@ -42,6 +43,7 @@ export default function ContactUs() {
       <div className={styles.rightSection}>
         <ContactForm/>
         </div>
+        <img className={styles.contact2} src='images/contact2.png'/>
     </div>
   )
 }
