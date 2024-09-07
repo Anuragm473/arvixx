@@ -66,17 +66,17 @@ const BootCamp = () => {
             <div className={styles.title}>Design Live</div>
             <div className={styles.subtitle}>Master design fundamentals in real-time sessions.</div>
           </div>
-          </div>
           <div className={styles.footer}>
             <div className={styles.previewButton}>
               <div className={styles.previewText}>Preview</div>
-              <div className={styles.previewIcon}></div>
+              <div className={styles.previewIcon}><img src='images/preview-arrow.png'/></div>
             </div>
             <div className={styles.priceContainer}>
               <span className={styles.currentPrice}>₹249 </span>
               <span className={styles.originalPrice}>₹359</span>
             </div>
           </div>
+        </div>
       </div>
     </div>
     );

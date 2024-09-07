@@ -58,35 +58,52 @@ export default function SkillsComponent() {
       </div>
 
       <div className="overflow-hidden relative">
-        <div className="flex space-x-8 animate-scroll">
-          {/* Duplicate the set of images to create a seamless loop */}
-          <div className="flex space-x-8">
-            <img src="sponsor-logo-1.png" alt="Webflow" className="h-12 w-auto" />
-            <img src="sponsor-logo-2.png" alt="Notion" className="h-12 w-auto" />
-            <img src="sponsor-logo-3.png" alt="Illustrator" className="h-12 w-auto" />
-            <img src="sponsor-logo-4.png" alt="Figma" className="h-12 w-auto" />
-            <img src="sponsor-logo-5.png" alt="Canva" className="h-12 w-auto" />
-            <img src="sponsor-logo-6.png" alt="Blender" className="h-12 w-auto" />
-            <img src="sponsor-logo-7.png" alt="GitHub" className="h-12 w-auto" />
-            <img src="sponsor-logo-8.png" alt="Framer" className="h-12 w-auto" />
-            <img src="sponsor-logo-9.png" alt="WordPress" className="h-12 w-auto" />
-            <img src="sponsor-logo-10.png" alt="Shopify" className="h-12 w-auto" />
-            <img src="sponsor-logo-11.png" alt="Wix" className="h-12 w-auto" />
-            <img src="sponsor-logo-12.png" alt="ChatGPT" className="h-12 w-auto" />
+        <div className="flex flex-col gap-16 space-x-8 animate-scroll">
+          <div className="flex space-x-8 animate-moveLeft">
+            <img src="images/webflow-logotype.svg" alt="Webflow" className="h-12 w-auto" />
+            <img src="images/notion-logotype.svg" alt="Notion" className="h-12 w-auto" />
+            <img src="images/illustrator-logotype.svg" alt="Illustrator" className="h-12 w-auto" />
+            <img src="images/group-141.svg" alt="Figma" className="h-12 w-auto" />
+            <img src="images/canva-logotype.svg" alt="Canva" className="h-12 w-auto" />
+            <img src="images/blender-logotype.svg" alt="Blender" className="h-12 w-auto" />
+            <img src="images/git-hub-logotype.svg" alt="GitHub" className="h-12 w-auto" />
+            <img src="images/framer-logotype.svg" alt="Framer" className="h-12 w-auto" />
+            <img src="images/wordpress-logotype.svg" alt="WordPress" className="h-12 w-auto" />
+            <img src="images/shopify.svg" alt="Shopify" className="h-12 w-auto" />
+            <img src="images/chatgpt.svg" alt="ChatGPT" className="h-12 w-auto" />
+            <img src="images/webflow-logotype.svg" alt="Webflow" className="h-12 w-auto" />
+            <img src="images/notion-logotype.svg" alt="Notion" className="h-12 w-auto" />
+            <img src="images/illustrator-logotype.svg" alt="Illustrator" className="h-12 w-auto" />
+            <img src="images/group-141.svg" alt="Figma" className="h-12 w-auto" />
+            <img src="images/canva-logotype.svg" alt="Canva" className="h-12 w-auto" />
+            <img src="images/blender-logotype.svg" alt="Blender" className="h-12 w-auto" />
+            <img src="images/git-hub-logotype.svg" alt="GitHub" className="h-12 w-auto" />
+            <img src="images/framer-logotype.svg" alt="Framer" className="h-12 w-auto" />
+            <img src="images/wordpress-logotype.svg" alt="WordPress" className="h-12 w-auto" />
+            <img src="images/shopify.svg" alt="Shopify" className="h-12 w-auto" />
+            <img src="images/chatgpt.svg" alt="ChatGPT" className="h-12 w-auto" />
           </div>
-          <div className="flex space-x-8">
-            <img src="sponsor-logo-1.png" alt="Webflow" className="h-12 w-auto" />
-            <img src="sponsor-logo-2.png" alt="Notion" className="h-12 w-auto" />
-            <img src="sponsor-logo-3.png" alt="Illustrator" className="h-12 w-auto" />
-            <img src="sponsor-logo-4.png" alt="Figma" className="h-12 w-auto" />
-            <img src="sponsor-logo-5.png" alt="Canva" className="h-12 w-auto" />
-            <img src="sponsor-logo-6.png" alt="Blender" className="h-12 w-auto" />
-            <img src="sponsor-logo-7.png" alt="GitHub" className="h-12 w-auto" />
-            <img src="sponsor-logo-8.png" alt="Framer" className="h-12 w-auto" />
-            <img src="sponsor-logo-9.png" alt="WordPress" className="h-12 w-auto" />
-            <img src="sponsor-logo-10.png" alt="Shopify" className="h-12 w-auto" />
-            <img src="sponsor-logo-11.png" alt="Wix" className="h-12 w-auto" />
-            <img src="sponsor-logo-12.png" alt="ChatGPT" className="h-12 w-auto" />
+          <div className="flex space-x-8 animate-moveRight">
+          <img src="images/webflow-logotype.svg" alt="Webflow" className="h-12 w-auto" />
+            <img src="images/notion-logotype.svg" alt="Notion" className="h-12 w-auto" />
+            <img src="images/illustrator-logotype.svg" alt="Illustrator" className="h-12 w-auto" />
+            <img src="images/group-141.svg" alt="Figma" className="h-12 w-auto" />
+            <img src="images/canva-logotype.svg" alt="Canva" className="h-12 w-auto" />
+            <img src="images/blender-logotype.svg" alt="Blender" className="h-12 w-auto" />
+            <img src="images/git-hub-logotype.svg" alt="GitHub" className="h-12 w-auto" />
+            <img src="images/framer-logotype.svg" alt="Framer" className="h-12 w-auto" />
+            <img src="images/wordpress-logotype.svg" alt="WordPress" className="h-12 w-auto" />
+            <img src="images/shopify.svg" alt="Shopify" className="h-12 w-auto" />
+            <img src="images/webflow-logotype.svg" alt="Webflow" className="h-12 w-auto" />
+            <img src="images/notion-logotype.svg" alt="Notion" className="h-12 w-auto" />
+            <img src="images/illustrator-logotype.svg" alt="Illustrator" className="h-12 w-auto" />
+            <img src="images/group-141.svg" alt="Figma" className="h-12 w-auto" />
+            <img src="images/canva-logotype.svg" alt="Canva" className="h-12 w-auto" />
+            <img src="images/blender-logotype.svg" alt="Blender" className="h-12 w-auto" />
+            <img src="images/git-hub-logotype.svg" alt="GitHub" className="h-12 w-auto" />
+            <img src="images/framer-logotype.svg" alt="Framer" className="h-12 w-auto" />
+            <img src="images/wordpress-logotype.svg" alt="WordPress" className="h-12 w-auto" />
+            <img src="images/shopify.svg" alt="Shopify" className="h-12 w-auto" />
           </div>
         </div>
       </div>

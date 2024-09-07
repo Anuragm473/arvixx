@@ -2,21 +2,20 @@
     width: 100%;
     height: 100%;
     padding-top: 112px;
-    padding-bottom: 112px;
     background: #000212;
     border-left: 1px solid #d6d7d9;
     border-right: 1px solid #d6d7d9;
-    border-bottom: 1px solid #d6d7d9;
     display: inline-flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    text-align:start;
     gap: 80px;
   }
   
   .innerContainer {
     display: inline-flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     gap: 80px;
   }
@@ -30,14 +29,15 @@
   
   .textContainer {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:3rem;
     align-items: center;
   }
   
   .title {
     color: white;
-    font-size: 96px;
+    font-size: 4.4rem;
     font-family: Inter, sans-serif;
     font-weight: 700;
     line-height: 144px;
@@ -108,6 +108,7 @@
   .logoImg1 {
     width: 27.61px;
     height: 28.88px;
+    filter: grayscale(100%);
     position: absolute;
     left: 5.7px;
     top: 5.03px;

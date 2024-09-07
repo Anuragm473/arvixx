@@ -9,7 +9,12 @@ const Footer = () => {
             <div className={styles.title}>LIVE LEARNING</div>
             <div className={styles.iconWrapper}>
               <div className={styles.icon}>
-                <div className={styles.iconInner}></div>
+              <svg width="69" height="69" viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g id="Frame">
+                  <path id="Vector" d="M33.5687 67.515C29.6666 53.8221 15.4002 39.6093 1.65573 35.7219C0.114757 35.2267 0.114757 34.1372 1.65573 33.6173C15.425 29.705 29.6666 15.5169 33.5935 1.79932C34.0161 0.288899 35.0351 0.288899 35.4576 1.79932C39.3597 15.5169 53.6261 29.705 67.3459 33.6173C68.8868 34.1125 68.8868 35.2267 67.3459 35.7219C53.6012 39.6093 39.3348 53.8221 35.4328 67.515C35.0102 69.0503 33.9912 69.0503 33.5687 67.515Z" fill="#0ACF83"/>
+                  </g>
+                  </svg>
+
               </div>
             </div>
           </div>
@@ -17,7 +22,12 @@ const Footer = () => {
             <div className={styles.title}>SKILL 4.0</div>
             <div className={styles.iconWrapper}>
               <div className={styles.icon}>
-                <div className={styles.iconInner}></div>
+              <svg width="69" height="69" viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g id="Frame">
+                  <path id="Vector" d="M33.5687 67.515C29.6666 53.8221 15.4002 39.6093 1.65573 35.7219C0.114757 35.2267 0.114757 34.1372 1.65573 33.6173C15.425 29.705 29.6666 15.5169 33.5935 1.79932C34.0161 0.288899 35.0351 0.288899 35.4576 1.79932C39.3597 15.5169 53.6261 29.705 67.3459 33.6173C68.8868 34.1125 68.8868 35.2267 67.3459 35.7219C53.6012 39.6093 39.3348 53.8221 35.4328 67.515C35.0102 69.0503 33.9912 69.0503 33.5687 67.515Z" fill="#0ACF83"/>
+                  </g>
+                  </svg>
+
               </div>
             </div>
           </div>
@@ -28,8 +38,7 @@ const Footer = () => {
           <div className={styles.column}>
             <div className={styles.logoContainer}>
               <div className={styles.logo}>
-                <img className={styles.logoImg1} src="https://via.placeholder.com/28x29" alt="Logo" />
-                <img className={styles.logoImg2} src="https://via.placeholder.com/13x18" alt="Sublogo" />
+                <img className={styles.logoImg1} src="images/icon.png" alt="Logo" />
               </div>
               <div className={styles.companyName}>ARVIX</div>
             </div>

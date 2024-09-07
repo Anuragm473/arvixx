@@ -7,16 +7,16 @@ export default {
   theme: {
     extend: {
       animation: {
-        marquee: 'marquee 15s linear infinite',
-        marquee2: 'marquee2 15s linear infinite',
+        moveLeft: 'moveLeft 20s linear infinite',
+        moveRight: 'moveRight 20s linear infinite',
       },
       keyframes: {
-        marquee: {
-          '0%': { transform: 'translateX(100%)' },
-          '100%': { transform: 'translateX(-100%)' },
-        },
-        marquee2: {
+        moveLeft: {
+          '100%': { transform: 'translateX(0)' },
           '0%': { transform: 'translateX(-100%)' },
+        },
+        moveRight: {
+          '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(100%)' },
         },
       },

@@ -1,21 +1,22 @@
 .container {
-    width: 100%;
+    width: 53rem;
     height: 100%;
     border-bottom: 1px solid #D6D7D9;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
-    gap: 147px;
+    text-align:start;
+    gap: 2rem;
   }
   
   .featureBox {
-    width: 224.29px;
+    width: 14rem;
     padding: 24px 12px;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
   }
   
   .withBorders {
@@ -27,10 +28,10 @@
     height: 64px;
     padding: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
-    gap: 10px;
+    align-items: center;
+    gap: 1rem;
   }
   
   .iconWrapper {
@@ -43,18 +44,17 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    background: #0ACF83;
-    border-radius: 5px;
   }
   
   .title {
-    width: 152px;
+    width: 10rem;
+    items-align:start;
     color: #2E323A;
+    self-align:;
     font-size: 16px;
     font-family: 'Inter';
     font-weight: 700;
     line-height: 22.4px;
-    word-wrap: break-word;
   }
   
   .description {
@@ -65,7 +65,7 @@
     font-weight: 400;
     line-height: 19.6px;
     word-wrap: break-word;
-    text-align: center;
+    text-align: start;
     padding: 0 10px;
   }
   

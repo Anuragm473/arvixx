@@ -6,6 +6,7 @@ import ForInstitute from './ForInstitute'
 import Component from './component/Component'
 import CommunitySection from './CommunitySection/CommunitySection'
 import YourComponent from './YourComponent/YourComponent'
+import SkillsComponent from './SkillsComponent'
 
 export default function HomePage() {
   return (
@@ -14,7 +15,7 @@ export default function HomePage() {
     <BootcampSection/>
     <MissionSection/>
     <ForInstitute/>
-    <Component/>
+    <SkillsComponent/>
     <CommunitySection/>
     <YourComponent/>
     </>
