@@ -1,0 +1,174 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    background: #000212;
+    border-left: 1px solid #d6d7d9;
+    border-right: 1px solid #d6d7d9;
+    border-bottom: 1px solid #d6d7d9;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+  }
+  
+  .innerContainer {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+  }
+  
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .title {
+    color: white;
+    font-size: 96px;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    line-height: 144px;
+    word-wrap: break-word;
+  }
+  
+  .iconWrapper {
+    width: 68px;
+    height: 79.33px;
+    padding-top: 11.33px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .icon {
+    width: 68px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .iconInner {
+    width: 68px;
+    height: 68px;
+    background: #0acf83;
+    position: relative;
+  }
+  
+  .footer {
+    align-self: stretch;
+    height: 395px;
+    padding: 1px 176px;
+    background: #000212;
+    border: 2px solid rgba(255, 255, 255, 0.08);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .footerContent {
+    width: 1088px;
+    padding: 56px 32px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .column {
+    flex: 1;
+    padding-right: 83.75px;
+  }
+  
+  .logoContainer {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 42.84px;
+    height: 39.66px;
+    position: relative;
+  }
+  
+  .logoImg1 {
+    width: 27.61px;
+    height: 28.88px;
+    position: absolute;
+    left: 5.7px;
+    top: 5.03px;
+  }
+  
+  .logoImg2 {
+    width: 12.51px;
+    height: 17.53px;
+    position: absolute;
+    left: 22.9px;
+    top: 16.4px;
+  }
+  
+  .companyName {
+    color: rgba(180, 188, 208, 0.60);
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    font-weight: 800;
+    line-height: 24px;
+    margin-left: 10px;
+  }
+  
+  .tagline {
+    color: rgba(180, 188, 208, 0.60);
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  
+  .linkSection {
+    height: 282px;
+    padding: 0 16px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  
+  .sectionTitle {
+    color: #b4bcd0;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  
+  .links div {
+    color: rgba(180, 188, 208, 0.60);
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  

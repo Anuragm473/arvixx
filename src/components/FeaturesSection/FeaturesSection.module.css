@@ -1,0 +1,71 @@
+.container {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #D6D7D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 147px;
+  }
+  
+  .featureBox {
+    width: 224.29px;
+    padding: 24px 12px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .withBorders {
+    border-left: 1px solid #D6D7D9;
+    border-right: 1px solid #D6D7D9;
+  }
+  
+  .featureItem {
+    height: 64px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .iconWrapper {
+    width: 24px;
+    height: 24px;
+    position: relative;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: #0ACF83;
+    border-radius: 5px;
+  }
+  
+  .title {
+    width: 152px;
+    color: #2E323A;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 700;
+    line-height: 22.4px;
+    word-wrap: break-word;
+  }
+  
+  .description {
+    flex: 1 1 0;
+    color: #484D57;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 19.6px;
+    word-wrap: break-word;
+    text-align: center;
+    padding: 0 10px;
+  }
+  

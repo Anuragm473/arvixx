@@ -1,0 +1,49 @@
+/* Floating effect for the arrow */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.arrow-container {
+  position: absolute;
+  top: 10%; /* Adjusted to align vertically with the button */
+  left: 37%; /* Adjusted to place the arrow next to the button */
+  display: flex;
+  align-items: center;
+  background-color:transparent;
+  transform: translateY(-50%); /* Center the arrow vertically with the button */
+}
+
+.floating-arrow {
+  transform: rotate(45deg);
+  background-color:transparent;
+  animation: float 1.5s ease-in-out infinite;
+  z-index: 10; /* Ensure it appears above other elements */
+}
+
+.floating-arrow svg {
+  transform: rotate(15deg); /* Counter-rotate the SVG to align with the arrow */
+  fill:linear-gradient(180deg, #9747FF 0%, #0952E0 100%);
+}
+
+/* Scrolling animation for sponsor logos */
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  white-space: nowrap;
+  animation: scroll-right 20s linear infinite;
+}
+
+

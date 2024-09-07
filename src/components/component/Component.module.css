@@ -1,0 +1,93 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    background: white;
+    border-left: 1px #D6D7D9 solid;
+    border-right: 1px #D6D7D9 solid;
+    border-bottom: 1px #D6D7D9 solid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 48px;
+    display: inline-flex;
+}
+
+.innerContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    display: flex;
+}
+
+.header {
+    height: 48px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 36px;
+    display: flex;
+}
+
+.learnButton {
+    position: relative;
+    width: 191.66px;
+    height: 59.43px;
+}
+
+.buttonBackground {
+    width: 157px;
+    height: 39px;
+    position: absolute;
+    background: linear-gradient(180deg, #9747FF 0%, #0952E0 100%);
+    border-radius: 10px;
+}
+
+.buttonText {
+    position: absolute;
+    width: 109px;
+    left: 24px;
+    top: 8px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.skillsHeader {
+    width: 768px;
+    text-align: center;
+    color: #B8BBBF;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 48px;
+    word-wrap: break-word;
+}
+
+.description {
+    width: 496px;
+    text-align: center;
+}
+
+.essentialTools {
+    color: #0ACF83;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+/* Add more styles for your card container and other elements */
+.cardContainer {
+    width: 1440px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 45.23px;
+    display: inline-flex;
+}

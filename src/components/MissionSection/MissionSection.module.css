@@ -1,0 +1,241 @@
+.container {
+  width: 100%;
+  height: 100%;
+  padding-left: 56px;
+  padding-right: 56px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 80px;
+  display: inline-flex;
+}
+
+.textContainer {
+  flex: 1 1 0;
+  padding-right: 24px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: inline-flex;
+}
+
+.missionBadge {
+  padding: 8px 24px;
+  background: rgba(10, 207, 131, 0.09);
+  border-radius: 50px;
+  overflow: hidden;
+  border: 1px rgba(34, 34, 34, 0.10) solid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+}
+
+.missionText {
+  color: #0ACF83;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 19.6px;
+  word-wrap: break-word;
+}
+
+.title {
+  align-self: stretch;
+  color: black;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  line-height: 48px;
+  word-wrap: break-word;
+}
+
+.description {
+  align-self: stretch;
+  color: #2E323A;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 22.4px;
+  word-wrap: break-word;
+}
+
+.card {
+  align-self: stretch;
+  padding-bottom: 1px;
+  padding-left: 12px;
+  border-bottom: 1px #B8BBBF solid;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.cardHeader {
+  height: 56px;
+  padding: 24px 0 8px;
+  color: #2E323A;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.cardContent {
+  align-self: stretch;
+  height: 46px;
+  padding-bottom: 24px;
+  color: #2E323A;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 22.4px;
+  word-wrap: break-word;
+}
+
+.buttonContainer {
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: inline-flex;
+}
+
+.exploreButton {
+  border-radius: 8px;
+  border: 1px #0ACF83 solid;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  display: flex;
+}
+
+.exploreText {
+  padding: 16px 32px;
+  border-radius: 8px;
+  overflow: hidden;
+  color: #0ACF83;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+.enquireButton {
+  border-radius: 8px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  display: flex;
+}
+
+.enquireText {
+  padding: 16px 32px;
+  border-radius: 8px;
+  overflow: hidden;
+  color: #1A1C21;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+.arrowContainer {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.arrow {
+  width: 8px;
+  height: 10.7px;
+  left: 8px;
+  top: 8.3px;
+  position: absolute;
+  background: #1A1C21;
+}
+
+.arrowSmall {
+  width: 3.69px;
+  height: 6.29px;
+  left: 8px;
+  top: 5px;
+  position: absolute;
+  opacity: 0.5;
+  background: #1A1C21;
+}
+
+.imageContainer {
+  width: 694px;
+  height: 558px;
+  position: relative;
+}
+
+.imageWrapper {
+  width: 694px;
+  height: 525px;
+  border-radius: 12px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.image {
+  width: 694px;
+  height: 525px;
+}
+
+.liveWorkshops {
+  width: 279.1px;
+  height: 67px;
+  padding: 22px;
+  background: white;
+  box-shadow: 0px 1px 37.4px rgba(180.2, 180.2, 180.2, 0.25);
+  border-radius: 51px;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  position: absolute;
+  left: 207px;
+  top: 491px;
+}
+
+.liveWorkshopsBadge {
+  width: 20.1px;
+  height: 20.1px;
+  position: relative;
+}
+
+.liveWorkshopsBadge::before {
+  content: '';
+  width: 20.1px;
+  height: 20.1px;
+  position: absolute;
+  opacity: 0.68;
+  background: linear-gradient(180deg, #FF4343 0%, #FF511A 100%);
+  border-radius: 2000px;
+}
+
+.liveWorkshopsBadge::after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  background: linear-gradient(180deg, #FF4343 0%, #FF511A 100%);
+  border-radius: 2000px;
+  left: 4px;
+  top: 4px;
+}
+
+.liveWorkshopsText {
+  color: black;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  line-height: 22.4px;
+  word-wrap: break-word;
+}

@@ -1,0 +1,172 @@
+/* Header.module.css */
+.container {
+    width: 100%;
+    height: 100%;
+    background: #F4F4F4;
+    display: inline-flex;
+}
+
+.header {
+    width: 1440px;
+    flex: 1 1 0;
+    padding: 8px 24px;
+    border-left: 1px solid #D6D7D9;
+    border-right: 1px solid #D6D7D9;
+    border-bottom: 1px solid #D6D7D9;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 5px;
+}
+
+.logoWrapper {
+    position: relative;
+    width: 35px;
+    height: 30px;
+}
+
+.logoImage {
+    width: 27.61px;
+    height: 28.88px;
+    border-radius: 0.04;
+}
+
+.logoText {
+    color: black;
+    font-size: 24px;
+    font-family: 'Product Sans Black';
+    font-weight: 900;
+    word-wrap: break-word;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 53px;
+}
+
+.bootcampButton {
+    display: flex;
+    padding: 12px 8px;
+    border: 1px solid #2E323A;
+    border-radius: 4px;
+    align-items: center;
+    gap: 12px;
+}
+
+.bootcampIndicator {
+    width: 10.05px;
+    height: 10.05px;
+    position: relative;
+    opacity: 0.68;
+    background: linear-gradient(180deg, #FF4343 0%, #FF511A 100%);
+    border-radius: 1000px;
+}
+
+.bootcampText {
+    color: #2E323A;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.arrow {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.navItem {
+    color: #2E323A;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 23px;
+    word-wrap: break-word;
+}
+
+.actionContainer {
+    height: 68px;
+    padding: 10px 0;
+    width:20rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.learnMoreButton {
+    flex: 1;
+    height: 48px;
+    padding: 12px 24px;
+    border: 1px solid #2E323A;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learnMoreText {
+    text-align: center;
+    color: #2E323A;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.bookCallButton {
+    flex: 1;
+    height: 48px;
+    padding: 12px 24px;
+    background: #1A1C21;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.callIndicator {
+    width: 16px;
+    height: 16px;
+    position: relative;
+}
+
+.callIndicator::before, .callIndicator::after {
+    content: '';
+    position: absolute;
+    border: 1.5px white solid;
+}
+
+.callIndicator::before {
+    width: 0;
+    height: 9.33px;
+    left: 8px;
+    top: 3.33px;
+}
+
+.callIndicator::after {
+    width: 9.33px;
+    height: 0;
+    left: 3.33px;
+    top: 8px;
+}
+
+.bookCallText {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+}
