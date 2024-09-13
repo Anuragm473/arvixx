@@ -7,7 +7,7 @@ const BootcampSection = () => {
     return (
         <div className={styles.container1}>
             <video autoPlay muted loop className={styles.backgroundVideo}>
-                <source src="../../../public/video/-4f6d-4e2c-9446-b55c5fa19b8a.mp4" type="video/mp4" />
+                <source src="video/-4f6d-4e2c-9446-b55c5fa19b8a.mp4" type="video/mp4" />
             </video>
             <div className={styles.container}>
             <div className={styles.header}>

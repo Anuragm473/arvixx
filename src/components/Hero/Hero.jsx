@@ -1,19 +1,17 @@
 import React from "react";
 import styles from "./Hero.module.css";
-import headerImg from "./../../../public/images/header-1-video-call-light-mode-2.png";
-import RightArrow from "./../../../public/images/header-1-right-1.png";
-import LeftArrow from "./../../../public/images/header-1-side-left-1.png";
+import '../../styles/skills.css'
 
 export default function Hero() {
   return (
     <div className={styles.hero}>
       <div className={styles.container}>
-      <div className={styles.redBubble}>
-          <img className={styles.orangearrow} src='images/vectororange.svg'/>
+      <div className={`${styles.redBubble}`}>
+          <img className={`${styles.orangearrow}  `} src='images/vectororange.svg'/>
             <div className={styles.redBubbleText}>Social Media</div>
           </div>
           <div className={styles.redBubble1}>
-          <img className={styles.orangearrow1} src='images/vectororange.svg'/>
+          <img className={`${styles.orangearrow1}`} src='images/vectororange.svg'/>
             <div className={styles.redBubbleText1}>AI</div>
           </div>
           <div className={styles.greenBubble}>
@@ -69,18 +67,18 @@ export default function Hero() {
         <img
           className={styles.rightarrow}
           style={{ width: 450, height: 450 }}
-          src={RightArrow}
+          src='images/header-1-right-1.png'
           alt="Placeholder"
         />
         <img
           style={{ width: 550, height: 485.49, zIndex: 1000 }}
-          src={headerImg}
+          src='images/header-1-video-call-light-mode-2.png'
           alt="Placeholder"
         />
         <img
           className={styles.leftarrow}
           style={{ width: 345, height: 280 }}
-          src={LeftArrow}
+          src='images/header-1-side-left-1.png'
           alt="Placeholder"
         />
       </div>

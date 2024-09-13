@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    padding: 80px 56px;
+    background: #000212;
+    border: 1px #D6D7D9 solid;
+   
+    text-align:start;
+  
+  }
+  
+  .card {
+    display:flex;
+    gap:3rem;
+    margin-bottom:2rem;
+  }
+  .cardsFlex{
+    display:flex;
+    gap:1rem;
+  }
+  .card1{
+    display:flex;
+    gap:3rem;
+    margin-top:2rem;
+  }
+  
+  

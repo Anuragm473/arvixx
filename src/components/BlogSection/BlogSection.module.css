@@ -1,0 +1,138 @@
+.container {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    border: 1px #D6D7D9 solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+    text-align:start;
+    display: inline-flex;
+    text-align:start;
+}
+
+.leftColumn {
+    flex: 1 1 0;
+    align-self: stretch;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+    display: flex;
+}
+
+.imageContainer {
+    width: 650px;
+    height: 550px;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    border-right: 1px #484D57 solid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+.image {
+    width: 1004px;
+    height: 668px;
+}
+
+.rightColumn {
+    flex: 1 1 0;
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    display: inline-flex;
+}
+
+.tagContainer {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: inline-flex;
+}
+
+.tag {
+    padding: 8px 24px;
+    background: rgba(169, 169, 169, 0.09);
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px rgba(190, 190, 190, 0.57) solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+}
+
+.tagText {
+    color: #898F98;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 19.6px;
+    word-wrap: break-word;
+}
+
+.title {
+    align-self: stretch;
+    color: #1A1C21;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 48px;
+    word-wrap: break-word;
+}
+
+.description {
+    align-self: stretch;
+    color: #1A1C21;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 22.4px;
+    word-wrap: break-word;
+}
+
+.readContainer {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: inline-flex;
+}
+
+.readTime {
+    border-radius: 8px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    display: flex;
+}
+
+.readContent {
+    padding: 16px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+}
+
+.readIcon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.readText {
+    text-align: center;
+    color: #2E323A;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+}

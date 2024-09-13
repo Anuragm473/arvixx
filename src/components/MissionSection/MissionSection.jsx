@@ -1,5 +1,4 @@
 import styles from './MissionSection.module.css';
-import mainImg from './../../../public/images/img-202211171417481.png'
 
 
 const MissionSection = () => {
@@ -43,7 +42,7 @@ const MissionSection = () => {
       </div>
       <div className={styles.imageContainer}>
         <div className={styles.imageWrapper}>
-          <img className={styles.image} src={mainImg} alt="Placeholder" />
+          <img className={styles.image} src='images/img-202211171417481.png' alt="Placeholder" />
         </div>
         <div className={styles.liveWorkshops}>
           <div className={styles.liveWorkshopsBadge}></div>

@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function ForInstitute() {
   return (
-    <section className="bg-white py-12 px-14 max-w-[1440px] mx-auto">
+    <section className="bg-white py-12 px-14 max-w-[100%] mx-auto">
       <div className="container mx-auto flex flex-col md:flex-row items-center gap-20 h-[725px]">
-        <div className="md:w-1/2 mb-8 md:mb-0 w-[694px] h-[558px] relative">
+        <div className="md:w-1/2 mb-8 md:mb-0 w-[100%] h-[558px] relative">
           <img
             src="https://s3-alpha-sig.figma.com/img/8507/9739/53755c46587add0914a3b533fa203bb3?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l-72N6Vve8o4pc6DcPNlGP7Bk60j~1kDMXmfmGL9tzu7EpNSXvpEDtm9jAvgeC~M6V7Tc2IAh3UCFRapRr3BUm5sTdz3I~EVraN4cFhpioZ2T71vsFGY1cxxa-C6XuaLCVrU7aRfyM7XjDTA0xRvAq9orGd0nas-OOFoQZ5iCoEOfvlzhO9w-9TgblBQ2ycPyIwxqYfbgJbgocyhYNaCawHFCR8hqex77ZQWOORp0NhDmjCQvuUtp7e3x-V3CcfTCnwNA9UUukmV8Fsk5SGdbT2m4P0~vM-LcVEKJwqKlMHa~MwozUBhu9IcCN1TLPVbX5Xuk36e-l73w5sztNt9TA__"
             alt="Arvix for Institutes"

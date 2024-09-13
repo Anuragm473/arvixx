@@ -81,7 +81,7 @@
   }
   
   .footerContent {
-    width: 1088px;
+    width: 100%;
     padding: 56px 32px;
     display: inline-flex;
     justify-content: flex-start;
@@ -172,4 +172,15 @@
     font-weight: 400;
     line-height: 21px;
   }
-  
+  @media(max-width:919px){
+    .title{
+      font-size:2.8rem;
+    }
+    .icon{
+      width:48px;
+      height:48px;
+    }
+    .innerContainer{
+      gap:30rem;
+    }
+  }

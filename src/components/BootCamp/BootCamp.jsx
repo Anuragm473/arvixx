@@ -61,7 +61,7 @@ const BootCamp = () => {
               <div>Starts on<br/>16 October 2024</div>
             </div>
           </div>
-          <div className={styles.imageBackground} style={{backgroundImage:`url('../../../public/images/rectangle-41994.png')`}}/>
+          <div className={styles.imageBackground} style={{backgroundImage:`url('images/rectangle-41994.png')`}}/>
           <div className={styles.descriptionContainer}>
             <div className={styles.title}>Design Live</div>
             <div className={styles.subtitle}>Master design fundamentals in real-time sessions.</div>

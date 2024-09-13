@@ -19,7 +19,6 @@
 }
 
 .floating-arrow {
-  transform: rotate(45deg);
   background-color:transparent;
   animation: float 1.5s ease-in-out infinite;
   z-index: 10; /* Ensure it appears above other elements */

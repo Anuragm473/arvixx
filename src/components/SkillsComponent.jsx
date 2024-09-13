@@ -3,7 +3,7 @@ import './../styles/skills.css'
 
 export default function SkillsComponent() {
   return (
-    <section className="w-[1440px] mx-auto py-[112px] border-t border-b border-gray-200">
+    <section className=" mx-auto py-[112px] border-t border-b border-gray-200">
       <div className="text-center mb-12 relative">
         {/* Learn with us button */}
         <button className="absolute text-[12px] font-normal top-[-7%] left-[30%] inline-flex items-center bg-gradient-to-b from-[#9747FF] to-[#0952E0] text-white px-3 py-3 rounded-lg mb-5 hover:shadow-lg hover:translate-y-1 transition-transform">
@@ -57,8 +57,8 @@ export default function SkillsComponent() {
         </p>
       </div>
 
-      <div className="overflow-hidden relative">
-        <div className="flex flex-col gap-16 space-x-8 animate-scroll">
+      <div className="overflow-hidden relative w-[100%]">
+        <div className="flex w-[100%] flex-col gap-16 space-x-8 animate-scroll">
           <div className="flex space-x-8 animate-moveLeft ">
             <img src="images/webflow-logotype.svg" alt="Webflow" className="h-12 w-auto" />
             <img src="images/notion-logotype.svg" alt="Notion" className="h-12 w-auto" />

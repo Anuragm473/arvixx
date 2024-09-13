@@ -24,7 +24,7 @@
   position:absolute;
   top:13%;
   left:14%;
-  transform:rotate(45deg)
+  transform:rotate(45deg);
 }
 
 
@@ -109,7 +109,11 @@
   top: 34%;
   position: absolute;
 }
-
+.floatingArrow{
+  background-color:transparent;
+  animation: float 1.5s ease-in-out infinite;
+  z-index: 10;
+}
 .bluearrow{
   position:absolute;
   top:-20%;
@@ -233,4 +237,110 @@
   max-width:100%;
   justify-content:center;
   transform:translate(0,-10%)
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+@media(max-width:1216px){
+  .redBubbleText{
+    left: 3%;
+  }
+  .orangearrow{
+    left:12%;
+  }
+}
+@media(max-width:1216px){
+  .redBubbleText{
+    left: 3%;
+  }
+  .orangearrow{
+    left:13%;
+  }
+  .description{
+    font-size: 16px;
+  }
+  .hero{
+    padding-top:70px;
+  }
+  .title{
+    font-size:44px;
+    width:856px;
+  }
+  .greenBubble{
+    left:83%;
+  }
+}
+@media(max-width:1110px){
+  .redBubbleText{
+    left: 4%;
+    top:14%;
+  }
+  .orangearrow{
+    left:15%;
+    top:14%;
+  }
+  .title{
+    font-size:36px;
+    width:700px;
+  }
+  .greenBubble{
+    left:86%;
+  }
+}
+@media(max-width:994px){
+  .redBubbleText{
+    left: 2%;
+  }
+  .orangearrow{
+    left:14%;
+  }
+  .title{
+    font-size:34px;
+    width:600px;
+  }
+  .blueBubble{
+    left:3%;
+    z-index:10;
+  }
+}
+@media(max-width:924px){
+  .redBubbleText{
+    left: 2%;
+    top:14%;
+  }
+  .orangearrow{
+    left:14%;
+    top:14%;
+  }
+  .description{
+    font-size: 12px;
+  }
+  .hero{
+    padding-top:30px;
+  }
+  .title{
+    font-size:18px;
+    width:500px;
+  }
+  .greenBubble{
+    left:86%;
+  }
+  .blueBubble{
+    left:3%;
+    z-index:10;
+  }
+  .content{
+    gap:16px;
+  }
+  .orangearrow1{
+    left:80%;
+  }
+  .redBubbleText1{
+    left:84%;
+  }
 }

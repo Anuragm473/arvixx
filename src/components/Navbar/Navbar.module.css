@@ -1,4 +1,3 @@
-/* Header.module.css */
 .container {
     width: 100%;
     height: 100%;
@@ -45,6 +44,22 @@
     word-wrap: break-word;
 }
 
+/* Navigation and action container */
+.navActionContainer {
+    display:block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.navActionContainer1{
+    display:none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
 .navContainer {
     display: flex;
     justify-content: flex-start;
@@ -52,6 +67,7 @@
     gap: 53px;
 }
 
+/* Bootcamp button */
 .bootcampButton {
     display: flex;
     padding: 12px 8px;
@@ -78,12 +94,7 @@
     line-height: 23px;
 }
 
-.arrow {
-    width: 24px;
-    height: 24px;
-    position: relative;
-}
-
+/* Individual nav items */
 .navItem {
     color: #2E323A;
     font-size: 16px;
@@ -96,13 +107,22 @@
 .actionContainer {
     height: 68px;
     padding: 10px 0;
-    width:20rem;
+    width: 20rem;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 10px;
 }
-
+.actionContainer1{
+    height: 68px;
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    display:none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
 .learnMoreButton {
     flex: 1;
     height: 48px;
@@ -135,32 +155,6 @@
     align-items: center;
 }
 
-.callIndicator {
-    width: 16px;
-    height: 16px;
-    position: relative;
-}
-
-.callIndicator::before, .callIndicator::after {
-    content: '';
-    position: absolute;
-    border: 1.5px white solid;
-}
-
-.callIndicator::before {
-    width: 0;
-    height: 9.33px;
-    left: 8px;
-    top: 3.33px;
-}
-
-.callIndicator::after {
-    width: 9.33px;
-    height: 0;
-    left: 3.33px;
-    top: 8px;
-}
-
 .bookCallText {
     text-align: center;
     color: white;
@@ -169,4 +163,59 @@
     font-weight: 500;
     line-height: 24px;
     word-wrap: break-word;
+}
+
+/* Hamburger icon */
+.hamburgerIcon {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.showMenu {
+    display: flex;
+}
+
+/* Responsive for screens less than 850px */
+@media (max-width: 950px) {
+    .navActionContainer1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: #F4F4F4;
+        width: 100%;
+        padding: 10px 20px;
+        z-index: 10;
+    }
+    .navActionContainer{
+        display:none;
+    }
+
+    .hamburgerIcon {
+        display: block;
+    }
+
+    .logoText {
+        font-size: 20px;
+    }
+
+    .navContainer, .actionContainer {
+        flex-direction: column;
+        width: 100%;
+    }
+    .actionContainer1{
+        display:block;
+    }
+    .actionContainer1{
+        display:none;
+    }
+
+    .navItem, .bootcampButton, .learnMoreButton, .bookCallButton {
+        width: 100%;
+        justify-content: center;
+    }
 }
