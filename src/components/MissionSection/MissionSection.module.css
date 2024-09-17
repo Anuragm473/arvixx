@@ -11,8 +11,6 @@
   border-left: 1px #d6d7d9 solid;
   border-right: 1px #d6d7d9 solid;
   border-bottom: 1px #d6d7d9 solid;
-  
-
 }
 
 .textContainer {
@@ -89,7 +87,6 @@
   border-bottom: 0 #B8BBBF solid;
 }
 .cardHeader {
-  height: 56px;
   color: #2E323A;
   font-size: 20px;
   font-family: 'Inter', sans-serif;
@@ -270,5 +267,23 @@
 @media(max-width:1143px){
   .liveWorkshops{
     left:20%;
+  }
+}
+@media(max-width:890px){
+  .liveWorkshops{
+    left:25%;
+  }
+  .container{
+    flex-direction:column;
+    gap:0;
+  }
+  .textContainer{
+    width:100%;
+  }
+  .image{
+    width:100%;
+  }
+  .imageContainer{
+    width:100%;
   }
 }

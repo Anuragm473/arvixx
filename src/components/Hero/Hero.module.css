@@ -191,6 +191,10 @@
   gap: 16px;
   display: flex;
 }
+.image{
+  width: 550px; 
+  z-index: 1000 
+}
 
 .buttonInner {
   padding: 16px 32px;
@@ -223,13 +227,15 @@
   left:0;
   z-index:1;
   top:50%;
-  transform:translate(0,-30%)
+  transform:translate(0,-30%);
+  width: 450px;
 }
 .leftarrow{
   position:absolute;
   right:0;
   z-index:1;
   top:53%;
+  width: 345px;
 }
 .downArrow{
   display:flex;
@@ -300,7 +306,7 @@
     left:14%;
   }
   .title{
-    font-size:34px;
+    font-size:38px;
     width:600px;
   }
   .blueBubble{
@@ -324,7 +330,8 @@
     padding-top:30px;
   }
   .title{
-    font-size:18px;
+    font-size:20px;
+    line-height:2.6rem;
     width:500px;
   }
   .greenBubble{
@@ -338,9 +345,34 @@
     gap:16px;
   }
   .orangearrow1{
-    left:80%;
+    left:84%;
   }
   .redBubbleText1{
-    left:84%;
+    left:88%;
+  }
+}
+@media(max-width:800px){
+  .redBubbleText,.redBubbleText1,.greenarrow,.greenBubble,.bluearrow,.blueBubble,.orangearrow,.orangearrow1,.blueBubbleText{
+    display:none;
+  }
+  .hero{
+    padding-top:20px;
+  }
+  .title{
+    font-size:2rem;
+    line-height:2.6rem;
+    width:550px;
+  }
+  .image{
+    width:400px;
+  }
+  .leftarrow{
+    width:13rem;
+  }
+  .content{
+    padding-bottom:16px;
+  }
+  .rightarrow{
+    width:13rem;
   }
 }

@@ -66,18 +66,16 @@ export default function Hero() {
         </div>
         <img
           className={styles.rightarrow}
-          style={{ width: 450, height: 450 }}
           src='images/header-1-right-1.png'
           alt="Placeholder"
         />
         <img
-          style={{ width: 550, height: 485.49, zIndex: 1000 }}
+        className={styles.image}
           src='images/header-1-video-call-light-mode-2.png'
           alt="Placeholder"
         />
         <img
           className={styles.leftarrow}
-          style={{ width: 345, height: 280 }}
           src='images/header-1-side-left-1.png'
           alt="Placeholder"
         />

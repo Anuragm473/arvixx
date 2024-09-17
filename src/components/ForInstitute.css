@@ -1,0 +1,7 @@
+@media (max-width: 640px){
+    .custom-638px-position {
+      left: 40%; /* Move right, adjust percentage as needed */
+      bottom: -0.7rem; /* Move it up slightly */
+    }
+  }
+  
